@@ -1,0 +1,19 @@
+plugins
+{
+    id = 'application'
+}
+java
+{
+    sourceCompatibility=JavaVersion.Version_11.0.9
+    targetCompatibility=JavaVersion.Version_11.0.9
+
+}
+mainclassname='Pacman'
+
+Jar{
+    manifest
+    {
+        attributes "Pacman-class": "$mainclassname"
+    }
+
+}
